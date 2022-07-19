@@ -19,7 +19,7 @@ public class UITests extends TestBase {
     @Test
     @Feature("Search")
     @Story("Search video from the main page")
-    @DisplayName("Display search results test")
+    @DisplayName("Display search results dropdown test")
     void displaySearchResultsTest() {
         step("wait for the first page to load", () ->
                 $(AppiumBy.id("org.schabi.newpipe:id/itemVideoTitleView"))
@@ -45,7 +45,7 @@ public class UITests extends TestBase {
     @Test
     @Feature("Search")
     @Story("Search video from the main page")
-    @DisplayName("display search results test")
+    @DisplayName("Open the search results page test")
     void clickOnSearchResultsTest() {
         step("wait for the first page to load", () ->
                 $(AppiumBy.id("org.schabi.newpipe:id/itemVideoTitleView"))
@@ -78,7 +78,7 @@ public class UITests extends TestBase {
     @Test
     @Feature("Main menu")
     @Story("Open Main menu from from the main page")
-    @DisplayName("show main menu test")
+    @DisplayName("Show main menu test")
     void showMainMenuTest() {
         step("wait for the first page to load", () ->
                 $(AppiumBy.id("org.schabi.newpipe:id/itemVideoTitleView"))
@@ -99,7 +99,7 @@ public class UITests extends TestBase {
     @Test
     @Feature("Main menu")
     @Story("Accessing different sections of the main menu")
-    @DisplayName("switch main menu tabs test")
+    @DisplayName("Switch main menu tabs test")
     void switchMainMenuTest() {
         step("wait for the first page to load", () ->
                 $(AppiumBy.id("org.schabi.newpipe:id/itemVideoTitleView"))
@@ -126,7 +126,7 @@ public class UITests extends TestBase {
     @Test
     @Feature("Main menu")
     @Story("Changing settings of the application")
-    @DisplayName("open settings from main menu tabs test")
+    @DisplayName("Open settings from main menu tabs test")
     void openSettingsFromMainMenuTest() {
         step("wait for the first page to load", () ->
                 $(AppiumBy.id("org.schabi.newpipe:id/itemVideoTitleView"))
