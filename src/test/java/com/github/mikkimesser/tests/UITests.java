@@ -22,7 +22,6 @@ public class UITests extends TestBase {
     @Feature("Search")
     @Story("Search video from the main page")
     @DisplayName("Display search results dropdown test")
-    @Disabled("Debug")
     void displaySearchResultsTest() {
         step("wait for the first page to load", () ->
                 $(AppiumBy.id("org.schabi.newpipe:id/itemVideoTitleView"))
@@ -49,7 +48,6 @@ public class UITests extends TestBase {
     @Feature("Search")
     @Story("Search video from the main page")
     @DisplayName("Open the search results page test")
-    @Disabled("Debug")
     void clickOnSearchResultsTest() {
         step("wait for the first page to load", () ->
                 $(AppiumBy.id("org.schabi.newpipe:id/itemVideoTitleView"))
@@ -103,7 +101,6 @@ public class UITests extends TestBase {
     @Feature("Main menu")
     @Story("Accessing different sections of the main menu")
     @DisplayName("Switch main menu tabs test")
-    @Disabled("Debug")
     void switchMainMenuTest() {
         step("wait for the first page to load", () ->
                 $(AppiumBy.id("org.schabi.newpipe:id/itemVideoTitleView"))
@@ -131,7 +128,6 @@ public class UITests extends TestBase {
     @Feature("Main menu")
     @Story("Changing settings of the application")
     @DisplayName("Open settings from main menu tabs test")
-    @Disabled("Debug")
     void openSettingsFromMainMenuTest() {
         step("wait for the first page to load", () ->
                 $(AppiumBy.id("org.schabi.newpipe:id/itemVideoTitleView"))
