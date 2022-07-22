@@ -175,19 +175,19 @@ gradle clean test -"DdeviceHost=browserstack"
 ### Overview
 
 <p align="center">
-<img title="Allure reports Overview tab screenshot" src="images/screenshots/allure-reports-new-pipe-main-page.png.png">
+<img title="Allure reports Overview tab screenshot" src="images/screenshots/allure-reports-new-pipe-main-page.png">
 </p>
 
 ### Test Suites
 
 <p align="center">
-<img title="Allure reports Test suites tab screenshot" src="images/screenshots/allure-reports-new-pipe-test-cases-page.png.png">
+<img title="Allure reports Test suites tab screenshot" src="images/screenshots/allure-reports-new-pipe-test-cases-page.png">
 </p>
 
 ### Behaviors
 
 <p align="center">
-<img title="Allure reports Behaviors tab screenshot" src="images/screenshots/allure-reports-new-pipe-behaviors.png">
+<img title="Allure reports Behaviors tab screenshot" src="images/screenshots/allure-reports-new-pipe-behaviors-page.png">
 </p>
 
 ## :tv: Allure TestOps integration
