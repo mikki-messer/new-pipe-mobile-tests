@@ -26,7 +26,6 @@ public class TestBase {
 
     @BeforeAll
     public static void setup() {
-        System.out.println(deviceHost);
         switch (deviceHost) {
             case "browserstack":
                 Configuration.browser = BrowserstackMobileDriver.class.getName();
