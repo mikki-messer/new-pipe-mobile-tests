@@ -32,14 +32,11 @@
 
 ## :tv: Coverage
 
-- Check that the "Join our team" link opens the "Jobs" page
-- Check that the "News" link opens the "Blog & News" page
-- Check that on scrolling down to the "100% Success Rate" block the lion widget appears
-- Check that the lion widget disappears after the click on the close button
-- Check that the contact card with links to the Facebook and LinkedIn appears on mouse hover over the first contact in
-  the "Team block"
-- Check that there are no errors in the browser console logs
-
+- Check that on typing the search phrase into the Search input the dropdown with search suggestions appears.
+- Check that on clicking on the search suggestion the search result page opens.
+- Check that on clicking on the Main menu button the Main menu appears.
+- Check that on clicking on the Main menu header the menu tab changes.
+- Check that on clicking on the Settings menu item in the Main menu the Settings section opens.
 ## :tv: Technology stack
 
 <p align="center">
