@@ -112,7 +112,7 @@ gradle clean test -"DdeviceHost=emulation"
 
 #### Prerequisites
 
-Make sure to register at browserstack.com, upload your `.apk` file to your dashboard, and get your credentials and browserstack link for the app.
+Make sure to register at <a href="https://browserstack.com" target="_blank">browserstack.com</a>, upload your `.apk` file to your dashboard, and get your credentials and the Browserstack link for the app.
 
 #### Prepare the configuration file
 
@@ -156,7 +156,7 @@ gradle clean test -"DdeviceHost=browserstack"
 ### How to launch remotely on Jenkins
 
 > Create the `testData.properties` file in the `src/test/resources/configuration/` folder following instructions from <a href="#tv-prepare-test-data">here</a>.
-> Create the `browserstack.properties` file in the `src/test/resources/configuration/` folder following instructions from <a href="">here</a>
+> Create the `browserstack.properties` file in the `src/test/resources/configuration/` folder following instructions from <a href="#prepare-the-configuration-file-1">here</a>.
 
 #### Command:
 
