@@ -12,13 +12,13 @@
         - <a href="#prerequisites">Prerequisites</a>
         - <a href="#prepare-the-configuration-file">Prepare the configuration file</a>
         - <a href="#required-parameters">Required parameters</a>
-        - <a href="#emulation-properties-file-example">Emulation.properties file example</a>
+        - <a href="#emulationproperties-file-example">Emulation.properties file example</a>
         - <a href="#command">Command</a>
-    - <a href="#how-to-launch-on-the-local-machine-with-tests-running-on-the-remote-server">How to launch on the local machine with tests running on Browserstack.com</a>
+    - <a href="#how-to-launch-on-the-local-machine-with-tests-running-on-browserstackcom">How to launch on the local machine with tests running on Browserstack.com</a>
         - <a href="#prerequisites-1">Prerequisites</a>
         - <a href="#prepare-the-configuration-file-1">Prepare the configuration file</a>
         - <a href="#required-parameters-1">Required parameters</a>
-        - <a href="#browserstack-properties-file-example">Browserstack.properties file example</a>
+        - <a href="#browserstackproperties-file-example">Browserstack.properties file example</a>
         - <a href="#command-1">Command</a>
     - <a href="#how-to-launch-remotely-on-jenkins">How to launch remotely on Jenkins</a>
         - <a href="#command-2">Command</a>
@@ -32,7 +32,7 @@
     - <a href="#test-cases">Test cases</a>
     - <a href="#launches">Launches</a>
 - <a href="#tv-telegram-notifications">Telegram Notifications</a>
-- <a href="#tv-selenoid-launch-example">Selenoid launch example</a>
+- <a href="#tv-browserstackcom-launch-example">Browserstack.com launch example</a>
 
 ## :tv: Coverage
 
@@ -222,7 +222,7 @@ The Jenkins job automatically sends the results of the launch to the Allure Test
 <img title="Telegram notification screenshot" src="images/screenshots/telegram-new-pipe-tests-notification.png">
 </p>
 
-## :tv: Browserstack launch example
+## :tv: Browserstack.com launch example
 
 There is a video for each test demonstrating the flow.
 
