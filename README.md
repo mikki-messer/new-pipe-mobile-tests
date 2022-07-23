@@ -8,17 +8,21 @@
 - <a href="#tv-technology-stack">Technology stack</a>
 - <a href="#tv-prepare-test-data">Prepare test data</a>
 - <a href="#tv-launch">Launch</a>
-    - <a href="#how-to-launch-on-the-local-machine-with-tests-running-locally">How to launch on the local machine with tests running locally</a>
-        - <a href="#launch-with-the-default-params">Launch with the default params</a>
-        - <a href="#launch-with-the-arbitrary-params">Launch with the arbitrary params</a>
-    - <a href="#how-to-launch-on-the-local-machine-with-tests-running-on-the-remote-server">How to launch on the local machine with tests running on the remote server</a>
-        - <a href="#environment-properties-file-example">Environment .properties file example</a>
-        - <a href="#launch-with-the-default-params-1">Launch with the default params</a>
-        - <a href="#launch-with-the-arbitrary-params-1">Launch with the arbitrary params</a>
+    - <a href="#how-to-launch-on-the-local-machine-with-tests-running-on-the-android-studio-emulator">How to launch on the local machine with tests running on the Android Studio Emulator</a>
+        - <a href="#prerequisites">Prerequisites</a>
+        - <a href="#prepare-the-configuration-file">Prepare the configuration file</a>
+        - <a href="#required-parameters">Required parameters</a>
+        - <a href="#emulation-properties-file-example">Emulation.properties file example</a>
+        - <a href="#command">Command</a>
+    - <a href="#how-to-launch-on-the-local-machine-with-tests-running-on-the-remote-server">How to launch on the local machine with tests running on Browserstack.com</a>
+        - <a href="#prerequisites-1">Prerequisites</a>
+        - <a href="#prepare-the-configuration-file-1">Prepare the configuration file</a>
+        - <a href="#required-parameters-1">Required parameters</a>
+        - <a href="#browserstack-properties-file-example">Browserstack.properties file example</a>
+        - <a href="#command-1">Command</a>
     - <a href="#how-to-launch-remotely-on-jenkins">How to launch remotely on Jenkins</a>
-        - <a href="#environment-properties-file-example-1">Environment .properties file example</a>
-        - <a href="#launch-with-the-arbitrary-params-on-Jenkins">Launch with the arbitrary params on Jenkins</a>
-        - <a href="#tv-jenkins-build-example">Jenkins build example</a>
+        - <a href="#command-2">Command</a>
+        - <a href="#jenkins-build-example">Jenkins build example</a>
 - <a href="#tv-allure-reports-integration">Allure reports integration</a>
     - <a href="#overview">Overview</a>
     - <a href="#test-suites">Test suites</a>
@@ -37,6 +41,7 @@
 - Check that on clicking on the Main menu button the Main menu appears.
 - Check that on clicking on the Main menu header the menu tab changes.
 - Check that on clicking on the Settings menu item in the Main menu the Settings section opens.
+
 ## :tv: Technology stack
 
 <p align="center">
@@ -159,9 +164,9 @@ gradle clean test -"DdeviceHost=browserstack"
 gradle clean test -"DdeviceHost=browserstack" 
 ```
 
-## :tv: Jenkins build example
+#### Jenkins build example
 
-### <a target="_blank" href="https://jenkins.autotests.cloud/job/C12-Mike-B-thesis-mobile">Jenkins build</a>
+<h4><a target="_blank" href="https://jenkins.autotests.cloud/job/C12-Mike-B-thesis-mobile">Jenkins build</a></h4>
 
 <p align="center">
 <img title="Jenkins Dashboard" src="images/screenshots/jenkins-new-pipe-build-main-page.png">
