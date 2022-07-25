@@ -51,9 +51,7 @@ public class LocalMobileDriver implements WebDriverProvider {
         DeviceHostConfig deviceHostConfig = ConfigFactory.create(DeviceHostConfig.class, System.getProperties());
 
         String appUrl = deviceHostConfig.appURL();
-        System.out.println(appUrl);
         String appPath = deviceHostConfig.appPath();
-        System.out.println(appPath);
 
         File app = new File(appPath);
         if (!app.exists()) {
